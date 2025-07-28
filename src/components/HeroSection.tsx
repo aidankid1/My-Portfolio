@@ -21,11 +21,10 @@ export const HeroSection = () => {
 					</h1>
 
 					<p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-4">
-						I still need to fill this up with what I actually want to say. I
-						still need to fill this up with what I actually want to say. I still
-						need to fill this up with what I actually want to say. I still need
-						to fill this up with what I actually want to say. I still need
-						to fill this up with what I actually want to say.
+						I am currently a 4th year Software Engineering student studying at
+						the University of Calgary. I have extensive experience in Full Stack
+						Development, Game Development, CI/CD and Machine Learning. Below are
+						some of my projects that I have worked on throughout my studies.
 					</p>
 
 					<div className="pt-4 opacity-0 animate-fade-in-delay-4">
