@@ -3,30 +3,30 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
 	{
 		id: 1,
-		title: "Project One",
-		description: "I still need to fill this up with what I actually want to say.",
-		image: "projects/project1.jpg",
-		tags: ["web", "frontend"],
-		demoURL: "#",
-		githubURL: "#",
+		title: "SmartServe",
+		description: "An AI-powered meal planner that creates personalized meal plans based on user preferences and dietary restrictions.",
+		image: "projects/SmartServe.png",
+		tags: ["TypeScript", "JavaScript", "CSS", "Java", "Spring Boot", "Railway"],
+		demoURL: "https://smartserveai.vercel.app/home",
+		githubURL: "https://github.com/aidankid1/SmartServe",
 	},
 	{
 		id: 2,
-		title: "Project Two",
-		description: "I still need to fill this up with what I actually want to say.",
-		image: "projects/project2.jpg",
-		tags: ["web", "frontend"],
-		demoURL: "#",
-		githubURL: "#",
+		title: "Chess Game",
+		description: "A web-based recreation of the popular chess game that supports multiplayer mode on a single device (still under development).",
+		image: "projects/Chess.png",
+		tags: ["JavaScript", "CSS", "HTML", "Vercel", "OOP", "Game Development"],
+		demoURL: "https://chess-app-gamma-six.vercel.app/",
+		githubURL: "https://github.com/aidankid1/Chess-Application",
 	},
 	{
 		id: 3,
-		title: "Project Three",
-		description: "I still need to fill this up with what I actually want to say.",
-		image: "projects/project3.jpg",
-		tags: ["web", "frontend"],
-		demoURL: "#",
-		githubURL: "#",
+		title: "EcoScanner",
+		description: "A mobile app made to help users recycle more effectively by providing information on how to properly dispose of items.",
+		image: "projects/EcoScanner.png",
+		tags: ["Python", "JavaScript", "Speech & Image Recognition", "OpenAI"],
+		demoURL: "https://github.com/aidankid1/EcoScanner",
+		githubURL: "https://github.com/aidankid1/EcoScanner",
 	},
 ];
 
@@ -38,7 +38,7 @@ export const ProjectsSection = () => {
 					Featured <span className="text-primary"> Projects </span>
 				</h2>
 				<p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-					Here are some of my most recent projects.
+					Here are some of my most recent projects that showcase my skills and creativity.
 				</p>
 
 				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
