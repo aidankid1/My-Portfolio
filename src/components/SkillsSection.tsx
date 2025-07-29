@@ -2,24 +2,32 @@ import { useState } from "react";
 import { cn } from "../lib/utils";
 
 const skills = [
-	{ name: "HTML/CSS", level: 95, category: "frontend" },
-	{ name: "JavaScript", level: 90, category: "frontend" },
-	{ name: "React", level: 85, category: "frontend" },
-	{ name: "TypeScript", level: 75, category: "frontend" },
+	{ name: "HTML/CSS", level: 75, category: "frontend" },
+	{ name: "JavaScript", level: 80, category: "frontend" },
+	{ name: "React", level: 75, category: "frontend" },
+	{ name: "TypeScript", level: 85, category: "frontend" },
 	{ name: "Next.js", level: 70, category: "frontend" },
+	{ name: "Tailwind CSS", level: 85, category: "frontend" },
 
-	{ name: "Python", level: 75, category: "backend" },
-	{ name: "Django", level: 70, category: "backend" },
-	{ name: "SQL", level: 80, category: "backend" },
-	{ name: "MongoDB", level: 75, category: "backend" },
-	{ name: "AWS", level: 65, category: "backend" },
-	{ name: "Java", level: 70, category: "backend" },
+	{ name: "Python", level: 95, category: "backend" },
+	{ name: "C++", level: 95, category: "backend" },
+	{ name: "SQL", level: 70, category: "backend" },
+	{ name: "C", level: 95, category: "backend" },
+	{ name: "RISC-V Assembly", level: 90, category: "backend" },
+	{ name: "Java", level: 95, category: "backend" },
 	{ name: "GraphQL", level: 60, category: "backend" },
-	{ name: "Node.js", level: 80, category: "backend" },
+	{ name: "Node.js", level: 75, category: "backend" },
 
-	{ name: "Figma", level: 80, category: "tools" },
+	{ name: "GitHub", level: 95, category: "tools" },
 	{ name: "Git", level: 85, category: "tools" },
-	{ name: "Docker", level: 70, category: "tools" },
+	{ name: "Docker", level: 85, category: "tools" },
+	{ name: "CI/CD", level: 85, category: "tools" },
+	{ name: "Postman", level: 90, category: "tools" },
+	{ name: "Linux", level: 70, category: "tools" },
+	{ name: "Agile/Scrum", level: 90, category: "tools" },
+	{ name: "Machine Learning", level: 85, category: "tools" },
+	{ name: "Testing", level: 80, category: "tools" },
+	{ name: "Kubernetes", level: 80, category: "tools" }
 ];
 
 const categories = ["all", "frontend", "backend", "tools"];
