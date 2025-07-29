@@ -1,11 +1,12 @@
 import {
+	FacebookIcon,
+	Github,
 	Instagram,
 	Linkedin,
 	Mail,
 	MapPin,
 	Phone,
 	Send,
-	Twitter,
 } from "lucide-react";
 import { cn } from "../lib/utils";
 import { useState } from "react";
@@ -29,8 +30,8 @@ export const ContactSection = () => {
 				</h2>
 
 				<p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-					I'm always open to discussing new projects and opportunities. Feel
-					free to reach out!
+					I'm open to discussing new projects ideas, collaborations, and or work
+					opportunities. Please feel free to reach out!
 				</p>
 
 				<div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -64,7 +65,7 @@ export const ContactSection = () => {
 										href="tel:+11234567890"
 										className="text-muted-foreground hover:text-primary transition-colors"
 									>
-										+1 (123) 456-7890
+										+1 (403) 890-8854
 									</a>
 								</div>
 							</div>
@@ -84,14 +85,20 @@ export const ContactSection = () => {
 						<div className="pt-8">
 							<h4> Connect With Me</h4>
 							<div className="flex space-x-4 justify-center">
-								<a href="#" target="_blank">
+								<a
+									href="https://www.linkedin.com/in/aidan-h-b282992a5/"
+									target="_blank"
+								>
 									<Linkedin />
 								</a>
-								<a href="#" target="_blank">
-									<Twitter />
+								<a href="https://github.com/aidankid1" target="_blank">
+									<Github />
 								</a>
-								<a href="#" target="_blank">
+								<a href="https://www.instagram.com/aidan.4l/" target="_blank">
 									<Instagram />
+								</a>
+								<a href="https://www.facebook.com/aidan.huang.794/" target="_blank">
+									<FacebookIcon />
 								</a>
 							</div>
 						</div>
