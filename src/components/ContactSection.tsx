@@ -51,7 +51,7 @@ export const ContactSection = () => {
 										href="mailto:hello@gmail.com"
 										className="text-muted-foreground hover:text-primary transition-colors"
 									>
-										aidanhuang10@gmail.com
+										aidanhuang13@gmail.com
 									</a>
 								</div>
 							</div>
@@ -65,7 +65,7 @@ export const ContactSection = () => {
 										href="tel:+11234567890"
 										className="text-muted-foreground hover:text-primary transition-colors"
 									>
-										+1 (403) 890-8854
+										+1 (123) 456-7890
 									</a>
 								</div>
 							</div>
@@ -97,7 +97,7 @@ export const ContactSection = () => {
 								<a href="https://www.instagram.com/aidan.4l/" target="_blank">
 									<Instagram />
 								</a>
-								<a href="https://www.facebook.com/aidan.huang.794/" target="_blank">
+								<a href="https://www.facebook.com" target="_blank">
 									<FacebookIcon />
 								</a>
 							</div>

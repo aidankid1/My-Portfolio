@@ -34,7 +34,7 @@ export const AboutSection = () => {
 							</a>
 							{/* Dont forget to update the href to your CV */}
 							<a
-								href="projects/Aidan's Resume.pdf"
+								href="projects/CopyOfMyResume.pdf"
 								target="_blank"
 								className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
 							>
