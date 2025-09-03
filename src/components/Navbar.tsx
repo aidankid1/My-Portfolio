@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { useEffect, useState } from "react";
 import { cn } from "../lib/utils";
@@ -17,6 +17,12 @@ export const Navbar = () => {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 	useEffect(() => {
+		if (isMenuOpen) {
+			document.body.style.overflow = "hidden";
+		} else {
+			document.body.style.overflow = "auto";
+		}
+
 		const handleScroll = () => {
 			setIsScrolled(window.scrollY > 10);
 		};
@@ -25,7 +31,7 @@ export const Navbar = () => {
 		return () => {
 			window.removeEventListener("scroll", handleScroll);
 		};
-	}, []);
+	}, [isMenuOpen]);
 
 	return (
 		<nav
